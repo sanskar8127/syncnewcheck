@@ -7,7 +7,7 @@
   "destination_connector": "sqlserverdest",
   "schedule": {
     "enabled": false,
-    "cron": null
+    "cron": ""
   },
   "alerts": {
     "send_email": false,
@@ -17,8 +17,9 @@
   "properties": {
     "enable_parallel_processing": false,
     "worker_pool": 2,
-    "verbosity": 2,
+    "verbosity": 1,
     "destination_schema": "dbo",
+    "schema_strategy": "",
     "automatic_job_retry": true
   },
   "replicate_options": {

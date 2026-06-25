@@ -5,7 +5,7 @@
   "type": 4,
   "destination_connector": "mysql",
   "trigger": {
-    "type": null
+    "type": ""
   },
   "alerts": {
     "send_email": false,
@@ -15,7 +15,7 @@
   "properties": {
     "enable_parallel_processing": false,
     "worker_pool": 2,
-    "verbosity": 2,
+    "verbosity": 3,
     "command_timeout": 300
   },
   "labels": []
